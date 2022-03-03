@@ -1,4 +1,6 @@
-language: generic
+language: node_js
+node_js:
+  - 12
 deploy:
   provider: gae
   keyfile: vivid-spot-341421-e424def25b01.json
