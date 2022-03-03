@@ -12,6 +12,10 @@ export default {
     HelloWorld
   }
 }
+const convertToSpaces = require('./convertToSpaces');
+
+let test = convertToSpaces("hello?world");
+console.log(test);
 </script>
 
 <style>
