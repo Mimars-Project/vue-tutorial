@@ -1,4 +1,4 @@
-const convertToSpaces = require('../convertToSpaces');
+const convertToSpaces = require('../src/convertToSpaces');
 
 describe('convert to spaces test', function() {
   it('when hello world, returns hello world', function() {
