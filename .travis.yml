@@ -1,3 +1,4 @@
+language: generic
 deploy:
   provider: gae
   keyfile: vivid-spot-341421-e424def25b01.json
