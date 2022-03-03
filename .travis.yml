@@ -9,7 +9,7 @@ install:
 # Set the correct project to deploy to
 - gcloud config set project vivid-spot-341421
 script:
-- npm run deploy
+- npm run test
 deploy:
   provider: gae
   keyfile: vivid-spot-341421-e424def25b01.json
